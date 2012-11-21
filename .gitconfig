@@ -5,6 +5,8 @@
 	diff = auto
 	status = auto
 	branch = auto
+[alias]
+  s = status
 [push]
 	default = current
 [branch]
