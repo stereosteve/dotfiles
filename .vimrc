@@ -10,11 +10,16 @@ set ignorecase
 set modeline
 set nocompatible
 set encoding=utf-8
+set number
+set cursorline
+
+" Search: highlight, incremental, space = clear
+set hlsearch
+set incsearch
+nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
 
 let mapleader = ","
 
-" I accidentally hit F1 all the time
-imap <F1> <Esc>
 
 " Pathogen
 call pathogen#infect()
