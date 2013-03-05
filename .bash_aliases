@@ -22,3 +22,7 @@ alias egrep='egrep --color=auto'
 
 # lol
 alias fucking='sudo'
+
+# bundler
+alias rake='bundle exec rake'
+alias cap='bundle exec cap'
