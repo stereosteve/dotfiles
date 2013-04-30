@@ -20,6 +20,7 @@ nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
 
 let mapleader = ","
 
+au BufNewFile,BufRead *.ejs set filetype=html
 
 " nice try, Ex mode
 map Q <Nop>
