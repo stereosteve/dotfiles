@@ -15,7 +15,7 @@ alias mv='mv -i'
 alias cp='cp -i'
 
 # colors
-alias ls='ls --color=auto'
+alias ls='ls -lhG'
 alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
@@ -27,6 +27,3 @@ alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo
 # lol
 alias fucking='sudo'
 
-# bundler
-alias rake='bundle exec rake'
-alias cap='bundle exec cap'
